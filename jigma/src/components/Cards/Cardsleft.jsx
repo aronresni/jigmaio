@@ -8,7 +8,7 @@ const Cardsleft = () => {
     return (
         <div>
             <div className='text-black flex flex-col '>
-                <div className='m-10 inline-flex flex-col bg-white rounded-2xl shadow border- border-violet-200'>
+                <div className='m-5 inline-flex flex-col bg-white rounded-2xl shadow border- border-violet-200'>
                     <div className='m-5  self-start'>
                         <div className="inline-flex items-center  bg-green-100 rounded-3xl gap-3 overflow-hidden p-2 ">
                             <img src={freeimg}
@@ -17,8 +17,8 @@ const Cardsleft = () => {
                     </div>
 
                     <p className='m-4 pl-4 text-zinc-700 font-Inter self-start text-left'>You don't need to be a tech wizard to <br />train your AI assistant.</p>
-                    <div className='mt-1'>
-                        <span className='text-violet-600 text-[48px]  md:text-[60px] font-bold'>1k</span><span className='text-neutral-400 text-2xl font-Prompt leading-normal'>/Incoming messages</span>
+                    <div className='mt-1'>  
+                        <span className='text-violet-600 text-[48px]  md:text-[56px] font-bold'>1k</span><span className='text-neutral-400 text-2xl font-Prompt leading-normal md:text-l'>/Incoming messages</span>
                     </div>
 
                         <h4 className='font-bold text-slate-950 text-2xl font-Inter self-start ml-14'>Per month</h4>
@@ -40,7 +40,7 @@ const Cardsleft = () => {
                     </div>
 
                 </div>
-                <div className='m-10 inline-flex flex-col bg-white rounded-2xl shadow border-2 border-violet-200'>
+                <div className='m-5 inline-flex flex-col bg-white rounded-2xl shadow border-2 border-violet-200'>
                     <h1 className='m-4 text-gray-800 text-xl font-semibold font-Prompt '>Looking for Enterprise Capabilities?</h1>
                     <p className='m-4 text-zinc-700  font-Inter'>You don't need to be a tech wizard to <br />train your AI assistant.</p>
                     <div className='flex mr-10'>

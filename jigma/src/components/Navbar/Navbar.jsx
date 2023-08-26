@@ -26,20 +26,20 @@ const Navbar = () => {
                             } w-full absolute left-0 mx-auto z-[100] bg-dark md:w-auto md:translate-y-0 md:relative p-3`}
                         id="navbar-default"
                     >
-                        <ul className="font-medium flex flex-col items-center md:p-0 py-4 rounded-lg xl:text-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-dark">
-                            <li className="text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
+                        <ul className="font-medium flex flex-col items-center md:p-0 py-4 rounded-lg xl:text-lg md:flex-row md:space-x-8  md:mt-0 md:border-0 md:bg-dark">
+                            <li className="p-2 text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
                                 Home
                             </li>
-                            <li className="text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
+                            <li className="p-2 text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
                                 Pricing
                             </li>
-                            <li className="text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
+                            <li className="p-2 text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
                                 How it works
                             </li>
-                            <li className="text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
+                            <li className="p-2 text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
                                 Use cases
                             </li>
-                            <li className="text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
+                            <li className="p-2 text-white text-base font-medium leading-snug hover:text-violet-600 transition-colors">
                                 API
                             </li>
                             <li><div className={`flex gap-5 ${navLanding ? "justify-center md:justify-end" : "justify-end"}`}>
