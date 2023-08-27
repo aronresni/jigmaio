@@ -15,7 +15,7 @@ const Cardright = () => {
 
 
 
-    <div className=' m-5 inline-flex flex-col bg-white rounded-2xl shadow border-2 border-violet-200'>
+    <div className="m-5 md:inline-flex md:flex-col bg-white rounded-2xl shadow border-2 border-violet-200 md:w-[350px]">
 
 
       <div className='m-5  self-start'>
@@ -27,14 +27,14 @@ const Cardright = () => {
       <p className='m-4 pl-4 text-zinc-700 font-Inter self-start text-left'>You don't need to be a tech wizard to <br />train your AI assistant.</p>
       <div><span className='text-violet-600 text-[48px]  md:text-[56px] font-bold '>16k</span><span className='text-neutral-400 text-2xl font-Prompt leading-normal md:text-l'>/Estimated USD</span></div>
       <h4 className='font-bold text-slate-950 text-2xl font-Inter self-start ml-14'>Per month</h4>
-      <div className="w-full max-w-md mx-auto p-8">
-        <div className='flex'>
-          <div className="text-center p-3 text-neutral-400 text-base font-normal leading-none">1k</div>
-          <div className=" text-center p-3 text-neutral-400 text-base font-normal leading-none">10k</div>
-          <div className="text-center p-3 text-neutral-400 text-base font-normal leading-none">20k</div>
-          <div className="text-center p-3 text-neutral-400 text-base font-normal leading-none">40k</div>
-          <div className="text-center p-3 text-neutral-400 text-base font-normal leading-none">80k</div>
-          <div className="text-center p-3 text-neutral-400 text-base font-normal leading-none">100k</div>
+      <div className="w-full max-w-md mx-auto p-8 ">
+        <div class="flex">
+          <div class="text-center p-2 sm:p-3 text-neutral-400 text-base font-normal leading-none">1k</div>
+          <div class="text-center p-2 sm:p-3 text-neutral-400 text-base font-normal leading-none">10k</div>
+          <div class="text-center p-2 sm:p-3 text-neutral-400 text-base font-normal leading-none">20k</div>
+          <div class="text-center p-2 sm:p-3 text-neutral-400 text-base font-normal leading-none">40k</div>
+          <div class="text-center p-2 sm:p-3 text-neutral-400 text-base font-normal leading-none">80k</div>
+          <div class="text-center p-2 sm:p-3 text-neutral-400 text-base font-normal leading-none">100k</div>
         </div>
         <div className='mb-10'>
 

@@ -8,7 +8,7 @@ const Cardsleft = () => {
     return (
         <div>
             <div className='text-black flex flex-col '>
-                <div className='m-5 inline-flex flex-col bg-white rounded-2xl shadow border- border-violet-200'>
+                <div className=' m-5 inline-flex flex-col bg-white rounded-2xl shadow border-2 border-violet-200'>
                     <div className='m-5  self-start'>
                         <div className="inline-flex items-center  bg-green-100 rounded-3xl gap-3 overflow-hidden p-2 ">
                             <img src={freeimg}

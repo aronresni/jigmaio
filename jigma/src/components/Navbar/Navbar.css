@@ -1,11 +1,13 @@
 
 nav{
     color: white;
-    background: radial-gradient(111.82% 51.23% at 100.00% 98.70%, rgba(129, 85, 255, 0.30) 0%, rgba(13, 7, 28, 0.00) 100%);
-    background: var(--0-d-071-c, #0D071C);
+    background: linear-gradient(90deg, rgba(123,81,242,1) 0%, rgba(43,28,84,1) 0%, rgba(0,0,0,1) 100%);
+
+
+
+    
+
 }
 #navbar-default{
     color: white;
-    background: radial-gradient(111.82% 51.23% at 100.00% 98.70%, rgba(129, 85, 255, 0.30) 0%, rgba(13, 7, 28, 0.00) 100%);
-    background: var(--0-d-071-c, #0D071C);
 }

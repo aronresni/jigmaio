@@ -1,11 +1,5 @@
 #root {
   text-align: center;
-  background-image: url('./assets/gradient.svg');
+  background: rgb(13, 7, 28);
   background-position: top left;
 }
-
-.background{
-  color: white;
-    background: radial-gradient(111.82% 51.23% at 100.00% 98.70%, rgba(129, 85, 255, 0.30) 0%, rgba(13, 7, 28, 0.00) 100%);
-    background: var(--0-d-071-c, #0D071C);
-    }
