@@ -23,7 +23,7 @@ const Navbar = () => {
                     </div>
                     <div
                         className={`${navLanding ? "translate-y-0 top-[100%] duration-500" : "translate-y-[-100%] top-0"
-                            } w-full absolute left-0 mx-auto z-[100] bg-dark md:w-auto md:translate-y-0 md:relative p-3`}
+                            } w-full absolute left-0 mx-auto z-[100] backgroundnav md:w-auto md:translate-y-0 md:relative p-3`}
                         id="navbar-default"
                     >
                         <ul className="font-medium flex flex-col items-center md:p-0 py-4 rounded-lg xl:text-lg md:flex-row md:space-x-8  md:mt-0 md:border-0 md:bg-dark">
